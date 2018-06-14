@@ -1,0 +1,4 @@
+rootProject.name = 'webshop'
+include 'webshop2'
+findProject(':webshop2')?.name = 'webshop'
+
